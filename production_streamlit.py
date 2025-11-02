@@ -15,6 +15,14 @@ import joblib
 import os
 import warnings
 
+import subprocess
+import sys
+
+try:
+    spacy.load("en_core_web_sm")
+except OSError:
+    subprocess.run([sys.executable, "-m", "spacy", "download", "en_core_web_sm"])
+
 # --- Page Configuration ---
 st.set_page_config(
     page_title="AI Text Robustness Analyzer",
