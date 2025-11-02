@@ -53,4 +53,4 @@ This project is licensed under the [Creative Commons BY-NC-SA 4.0 License](https
 - **You may not:**
   - Use this project, its code, or its datasets in a commercial (paid) product or service without explicit written permission.
 
-For full license details, see the [LICENSE.md](LICENSE.md) file.
+For full license details, see the [LICENSE](LICENSE) file.
