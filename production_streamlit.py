@@ -14,6 +14,8 @@ import time
 import joblib
 import os
 import warnings
+import pathlib
+import platform
 
 # import subprocess
 # import sys
@@ -87,9 +89,21 @@ def create_linguistic_pipeline(nlp):
 
 
 # --- Model Loading (Cached) ---
+import platform  # <-- Make sure this import is at the top of your file
+import pathlib   # <-- Make sure this import is at the top of your file
+
+# ... other imports ...
+
 @st.cache_resource
 def load_production_models():
     print("--- Loading PRODUCTION models from disk... ---")
+    
+    # --- START: OS Incompatibility Patch ---
+    # Workaround for loading a model saved on Windows (using WindowsPath)
+    # onto a Linux server (which expects PosixPath).
+    if platform.system() == "Linux":
+        pathlib.WindowsPath = pathlib.PosixPath
+    # --- END: OS Incompatibility Patch ---
     
     # 1. Check if model directory exists
     if not os.path.exists(MODEL_DIR):
