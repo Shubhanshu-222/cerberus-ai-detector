@@ -1,0 +1,38 @@
+Project License
+
+This project, including all source code (.py), original datasets (current_ai_corpus.csv, aht_corpus.csv), and research documentation (the "Work"), is licensed under the:
+
+Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0)
+
+You are free to:
+
+Share — copy and redistribute the material in any medium or format.
+
+Adapt — remix, transform, and build upon the material.
+
+The licensor cannot revoke these freedoms as long as you follow the license terms.
+
+Under the following terms:
+
+Attribution (BY)
+You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
+
+NonCommercial (NC)
+You may not use the material for commercial purposes. This includes, but is not limited to, selling the datasets, using the source code as part of a paid product or service, or using the research findings for commercial gain without explicit prior permission.
+
+ShareAlike (SA)
+If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
+
+No additional restrictions
+You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
+
+For the full legal code, please visit:
+http://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
+
+How to Attribute This Work:
+
+When using this project, please provide attribution in the following format:
+
+Project: Specialist vs. Generalist: A Robustness Gauntlet Reveals the Case for a Hybrid AI Text Detector
+Author: Shubhanshu Bansod
+Source: https://github.com/Shubhanshu-222/cerberus-ai-detector/

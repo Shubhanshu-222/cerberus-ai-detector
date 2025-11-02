@@ -35,3 +35,22 @@ If you need to retrain models, use your own scripts and place the resulting `.jo
 ## Credits
 
 - Built with Streamlit, scikit-learn, spaCy, PyTorch, and Hugging Face Transformers.
+
+## License
+
+This project is licensed under the [Creative Commons BY-NC-SA 4.0 License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+
+- **You are free to:**
+
+  - View, share, and adapt this work for non-commercial purposes.
+  - Use the code, data, and research for personal projects, academic papers, and learning.
+
+- **You must:**
+
+  - Provide proper attribution.
+  - Share any adaptations under the same license terms.
+
+- **You may not:**
+  - Use this project, its code, or its datasets in a commercial (paid) product or service without explicit written permission.
+
+For full license details, see the [LICENSE.md](LICENSE.md) file.
