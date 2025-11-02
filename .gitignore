@@ -1,0 +1,36 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Caches
+.cache/
+.cache/*
+
+# Streamlit cache
+.cache
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.venv
+venv/
+ENV/
+
+# Model files (if you want to ignore large models, but here we keep them tracked)
+# production_models/*.joblib
+
+# Logs
+*.log
+
+# Python virtual environment
+*.env

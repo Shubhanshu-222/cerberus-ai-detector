@@ -1,0 +1,7 @@
+streamlit>=1.25.0
+pandas
+scikit-learn
+spacy
+torch
+transformers
+joblib
