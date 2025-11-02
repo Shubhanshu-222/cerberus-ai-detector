@@ -1,8 +1,10 @@
-streamlit
-pandas
-scikit-learn
-spacy
-torch
-transformers
-joblib
+streamlit==1.51.0
+pandas==2.3.3
+preshed==3.0.10
+thinc==8.3.6
+scikit-learn==1.7.2 
+spacy==3.8.7
+torch==2.9.0
+transformers==4.57.1
+joblib==1.5.2
 https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl
