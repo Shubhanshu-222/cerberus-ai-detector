@@ -1,5 +1,4 @@
 # Force environment rebuild
-en_core_web_sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl#sha256=1932429db727d4bff3deed6b34cfc05df17794f4a52eeb26cf8928f7c1a0fb85
 joblib==1.5.2
 pandas==2.2.2
 pandas-stubs==2.2.2.240909
@@ -19,3 +18,4 @@ torchsummary==1.5.1
 torchtune==0.6.1
 torchvision==0.23.0
 transformers==4.57.1
+en_core_web_sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl#sha256=1932429db727d4bff3deed6b34cfc05df17794f4a52eeb26cf8928f7c1a0fb85
