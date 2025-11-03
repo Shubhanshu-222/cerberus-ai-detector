@@ -1,4 +1,6 @@
 # Force environment rebuild
+setuptools>=68.0.0
+wheel>=0.41.0
 streamlit==1.51.0
 joblib==1.5.2
 pandas==2.2.2

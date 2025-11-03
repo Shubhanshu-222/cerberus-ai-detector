@@ -182,6 +182,7 @@ scipy==1.16.3
     # via scikit-learn
 setuptools==80.9.0
     # via
+    #   -r requirements.txt
     #   spacy
     #   thinc
     #   torch
@@ -260,5 +261,7 @@ watchdog==6.0.0
     # via streamlit
 weasel==0.4.1
     # via spacy
+wheel==0.45.1
+    # via -r requirements.txt
 wrapt==2.0.0
     # via smart-open
