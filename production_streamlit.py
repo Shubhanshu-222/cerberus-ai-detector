@@ -17,8 +17,8 @@ import warnings
 # import pathlib
 # import platform
 
-# import subprocess
-# import sys
+import subprocess
+import sys
 
 # try:
 #     spacy.load("en_core_web_sm")
@@ -45,12 +45,14 @@ EMBEDDING_BATCH_SIZE = 16
 # ---
 @st.cache_resource
 def load_spacy_model():
-    # We keep this cached to load spacy only once
     try:
+        import spacy
         nlp = spacy.load("en_core_web_sm")
-    except IOError:
-        st.error("spaCy model 'en_core_web_sm' not found. Please run: `python -m spacy download en_core_web_sm`")
-        st.stop()
+    except OSError:
+        import subprocess, sys
+        st.warning("Downloading spaCy model 'en_core_web_sm' (first run only)...")
+        subprocess.run([sys.executable, "-m", "spacy", "download", "en_core_web_sm"], check=True)
+        nlp = spacy.load("en_core_web_sm")
     return nlp
 
 def get_pos_tags(text_series, nlp):
